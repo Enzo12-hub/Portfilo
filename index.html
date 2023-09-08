@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">g
+
+    <script type="text/javascript">
+        function togglemenu() {
+
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script
+    <link rel href="https://fonts.google.com/icons" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <input type="checkbox" id="darkmode-toggle"/>
+    <label for="darkmode-toggle"></label> -->
+
+     <div class="social-menu">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook icon" style="color: #4581e8;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram icon" style="color: #e421c0;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube icon" style="color: #df161d;"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin icon"></i></a></li>
+        </ul>
+    </div>
+
+
+    <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT </li>
+            <li>SERVIVES</li>
+            <li>CONTACT US</li>
+        </ul>
+    </div>
+
+    <div class="name-container">
+        <h1 class="heading-tittle"><em> Hello, l'm KUHLE</em></h1>
+        <h2>Web Developer Portfolio|Software Developer</h2>
+        <p><em>I design and develop experiences that make people's lives <b>simple</b></em></p>
+        <a href="#">Hire Me</a>
+    </div>
+    
+    <img src="images/profille picture.jpg" id class="feature-img">
+    
+
+    <div class="About-Me">
+    <a href="About-me.html">About-Me</a>
+   </div>
+
+
+   <div class="theme" id="btn">
+    <!-- <span><em>K</em></span> -->
+    <img src="images/logo.png">
+   </div>
+
+   <!-- <script>
+    let btn = document.getElementById("theme-btn");
+
+    btn.onclick = function () {
+        document.body.classList.theme("dark-theme");
+    }
+
+</script> -->
+
+
+    </body>
+
+</html>
